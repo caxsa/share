@@ -5,12 +5,7 @@ import os
 from datetime import datetime
 from office365.sharepoint.client_context import ClientContext
 from office365.runtime.auth.authentication_context import AuthenticationContext
-import os
 
-sharepoint_url = os.getenv("SHAREPOINT_URL")
-usuario = os.getenv("SHAREPOINT_USER")
-contrasena = os.getenv("SHAREPOINT_PASS")
-carpeta_destino = os.getenv("SHAREPOINT_FOLDER")
 
 st.set_page_config(page_title="📦 Solicitud de Materiales", layout="centered")
 
